@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Highlighter</title>
+    <p id="current"></p>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 200px;
+            padding: 10px;
+        }
+        #highlightedTextList {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        #highlightedTextList li {
+            padding: 5px;
+            margin: 5px 0;
+            background-color: #f0f0f0;
+            border-radius: 3px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 5px;
+            width: 100%;
+        }
+
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>Highlighted Texts</h3>
+    <ul id="highlightedTextList"></ul>
+    <button id="clearButton">Reset</button>
+    <script src="popup.js"></script>
+</body>
+</html>
